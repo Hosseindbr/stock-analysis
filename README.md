@@ -1,12 +1,12 @@
 # VBA Stock Analysis
-##Project Summary
-###Purpos
+## Project Summary
+### Purpos
 In this challenge a VBA code was used to evaluate the stock investments in the year 2017 and 2018 to assist with future investment in the stock market. In this challenge we aimed to make the code run faster through refactoring the existing code.  
-##Results
-###Data Analysis
+## Results
+### Data Analysis
 The data wee presented in two sheets each of which contain information regarding ticker, the issuance date, price at the opening, maximum, minimum,  closing, and adjusted closing, as well as, the stock volume in 2017 and 2018. Using this code, ticker, total daily volume, and return value were retrieved. To this end As the first step in refactoring the code, the script needed to create the input box, chart headers, ticker array, and activate the worksheet was added to the Microsoft Visual Basic editor. Afterwards, the refactoring steps were laid out to create the structure. 
 
->'1a) Create a ticker Index
+> '1a) Create a ticker Index
     >For i = 0 To 11
     >tickerIndex = tickers(i)
     
@@ -71,17 +71,18 @@ The data wee presented in two sheets each of which contain information regarding
         
     >Next i
 
-##Summary
+## Summary
 
-###Advantages
+### Advantages
 *Coding is better designed when refactored
 *coding can be more easily understood through refactoring
 *Bugs can be found through refactoring
 *Programming becomes faster when refactoring is used
-###disadvantage
+### Disadvantage
 *It is risky when the code is big
 *There is a risk when there are no proper test cases for the existing code
 *There is a risk when the programmer has lack of understanding what the code is designed to do.
 
+### Advantage of Refactored Code Over the Original Script
 It is always easier to change, understand, and maintain a clean and well-organized code. By paying attention to the code refactoring process earlier, you can avoid facing difficulties later. By refactoring, macro run time was decreased significantly. Our new analysis took approximately 0.7 seconds to run, as compared with the original analysis that took approximately one second.
 
