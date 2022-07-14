@@ -6,7 +6,7 @@ In this challenge a VBA code was used to evaluate the stock investments in the y
 ### Data Analysis
 The data wee presented in two sheets each of which contain information regarding ticker, the issuance date, price at the opening, maximum, minimum,  closing, and adjusted closing, as well as, the stock volume in 2017 and 2018. Using this code, ticker, total daily volume, and return value were retrieved. To this end As the first step in refactoring the code, the script needed to create the input box, chart headers, ticker array, and activate the worksheet was added to the Microsoft Visual Basic editor. Afterwards, the refactoring steps were laid out to create the structure. 
 
->1a) Create a ticker Index
+`>1a) Create a ticker Index`
     >For i = 0 To 11
     >tickerIndex = tickers(i)
     
