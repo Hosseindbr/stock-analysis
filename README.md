@@ -17,7 +17,7 @@ The data wee presented in two sheets each of which contain information regarding
     
     
     >''2a) Create a for loop to initialize the tickerVolumes to zero.
-   > Worksheets(yearValue).Activate
+   >Worksheets(yearValue).Activate
     >tickerVolume = 0
         
     >''2b) Loop over all the rows in the spreadsheet.
