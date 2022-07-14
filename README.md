@@ -1,4 +1,4 @@
-#VBA Stock Analysis
+# VBA Stock Analysis
 ##Project Summary
 ###Purpos
 In this challenge a VBA code was used to evaluate the stock investments in the year 2017 and 2018 to assist with future investment in the stock market. In this challenge we aimed to make the code run faster through refactoring the existing code.  
